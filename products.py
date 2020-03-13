@@ -11,3 +11,6 @@ while True:
 	# products.append(p) #把p裝進products這個大清單
 	products.append([name, price]) #直接把name跟price裝成小清單後裝到大清單products
 print(products)
+
+for p in products: # for loop 的寫法 執行表現方式不一樣 這個會一行行
+	print(p[0], 'price is', p[1])
